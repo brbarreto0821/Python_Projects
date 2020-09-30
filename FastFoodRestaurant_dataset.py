@@ -2,8 +2,9 @@ import pandas as pd
 
 df = pd.read_csv("FastFoodRestaurants.csv")
 
+print(df)
 # prints out the header of the data set
-print(df.keys())
+#print(df.keys())
 
 # outputs first 5 in the data
 #df.head(5)
