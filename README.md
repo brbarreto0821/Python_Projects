@@ -9,11 +9,13 @@ Python projects that I made while learning Python
   * [bargraph.py](#bargraphpy)
   * [blackjack.py](#blackjackpy)
   * [calculator.py](#calculatorpy)
+  * [date_converter.py](#dateconverterpy)
   * [guessing_game.py](#guessing_gamepy)
   * [hangman_game.py](#hangman_gamepy)
   * [lineplot.py](#lineplotpy)
   * [nfl_stadium_webscaper.py](#nfl_stadium_webscraperpy)
   * [receipt.py](#receiptpy)
+  * [security.py](#securitypy)
   * [shopping_cart.py](#shopping_cartpy)
   * [user_database_csv.py](#user_database_csvpy)
   * [website_analysis.py](#website_analysispy)
@@ -44,6 +46,10 @@ Each project was created with Python version 3.7.6
 * Lets you add, subtract, multiply, and divide two numbers
 * When subtracting or dividing, the program asks you if you want to reverse the number order if the second number is larger than the first
 
+#### date_converter.py
+* Input a date in US format and outputs a date in EU format
+* Can input in MM/DD/YYYY format or (Month Day, Year) format
+
 #### guessing_game.py
 * Play a game where you try to guess the right number
 * The game tells you if the number guessed was high or low
@@ -63,6 +69,11 @@ Each project was created with Python version 3.7.6
 #### receipt.py
 * Prints out a receipt created with print functions
 
+#### security.py
+* Prints out a string that has x's (floor), G's (guards), T (thief), and $ (money)
+* If a T is next to $ without any G in between them, then the program prints out 'ALARM'
+* If a G is between a T and $, then the program prints out 'quiet' 
+
 #### shopping_cart.py
 * Allows the user to select which item they want in their cart
 * It allows the user to remove items from the cart or clear the whole cart
@@ -80,7 +91,7 @@ Each project was created with Python version 3.7.6
 * Outputs the amount of words there are in the body of the website that was inputted
 
 ## Setup
-To run these projects, you must have Python 3(I used Python 3.7.6) or an app that can run .py files.
+To run these projects, you must have Python 3 (I used Python 3.7.6) or an app that can run .py files.
 If you are using the command line enter this:
 
 ```
@@ -89,4 +100,4 @@ $ python calculator.py (or any other file)
 ```
 
 ## Sources
-All of these projects were made from a book called _Python Projects for Beginners - A Ten-Week Bootcamp Approach to Python Programming_ by Connor P. Milliken. Thanks to this amazing book, I now have a clear understanding of programming in general.
+Some of these projects were made from a book called _Python Projects for Beginners - A Ten-Week Bootcamp Approach to Python Programming_ by Connor P. Milliken. Thanks to this amazing book, I now have a clear understanding of programming in general.
