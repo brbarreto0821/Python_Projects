@@ -29,7 +29,7 @@ def mil_time():
         time = time[:5]
     
     elif 'PM' in time and len(time) == 8 :
-        time = str(12 + int(time[0:2])) + time[2:5] 
+        time = str(12 + int(time[0:2])) + time[2:5]
     
     elif 'PM' in time and len(time) == 7:
         time = str(12 + int(time[0])) + time[1:4]
@@ -38,5 +38,6 @@ def mil_time():
         time = f'0{time[:4]}'
         
     print(f'Military Time: {time}')
-    
-mil_time()
+
+if __name__ == "__main__":
+    mil_time()

@@ -13,6 +13,7 @@ Python projects that I made while learning Python
   * [guessing_game.py](#guessing_gamepy)
   * [hangman_game.py](#hangman_gamepy)
   * [lineplot.py](#lineplotpy)
+  * [military_time.py](#military_timepy)
   * [nfl_stadium_webscaper.py](#nfl_stadium_webscraperpy)
   * [receipt.py](#receiptpy)
   * [security.py](#securitypy)
@@ -66,6 +67,9 @@ Each project was created with Python version 3.7.6
 #### nfl_stadium_webscraper.py
 * Outputs how many NFL Stadiums there are in the United States and lists all of them
 
+#### military_time.py
+* Converts 12 hour time to 24 hour time
+
 #### receipt.py
 * Prints out a receipt created with print functions
 
@@ -100,4 +104,4 @@ $ python calculator.py (or any other file)
 ```
 
 ## Sources
-Some of these projects were made from a book called _Python Projects for Beginners - A Ten-Week Bootcamp Approach to Python Programming_ by Connor P. Milliken. Thanks to this amazing book, I now have a clear understanding of programming in general.
+Some of these projects were made from a book called _Python Projects for Beginners - A Ten-Week Bootcamp Approach to Python Programming_ by Connor P. Milliken. Thanks to this amazing book, I now have a basic understanding of programming in general.
